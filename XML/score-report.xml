@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ScoreReport SYSTEM "score-report.dtd">
+<?xml-stylesheet type="text/xsl" href="score-report.xsl"?>
+<?xml-stylesheet type="text/xsl" href="score-report.xsd"?>
+<ScoreReport>
+	<Student>
+		<ID>1</ID>
+		<FullName>Phạm Ngọc Ánh</FullName>
+		<Class>BKD02</Class>
+		<Address>Vân Canh, Hoài Đức, Hà Nội</Address>
+		<Sex>Nữ</Sex>
+		<DateBirth>2001-04-19</DateBirth>
+	</Student>
+	
+	<Transcript>
+		<Subject>
+			<IDT>11</IDT>
+			<SubjectName>XML</SubjectName>
+			<TheoryPoint>8</TheoryPoint>
+			<PracticePoint>8</PracticePoint>
+			<AverageScore>8</AverageScore>
+		</Subject>
+	</Transcript>
+</ScoreReport>

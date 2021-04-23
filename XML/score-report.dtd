@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ScoreReport (Student+,Transcript+)>
+<!ATTLIST ScoreReport xmlns CDATA "">
+<!ATTLIST ScoreReport xmlns:xsi CDATA "">
+<!ATTLIST ScoreReport xsi:schemaLocation CDATA "">
+<!ELEMENT Student (ID, FullName, Class, Address, Sex, DateBirth)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT FullName (#PCDATA)>
+<!ELEMENT Class (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Sex (#PCDATA)>
+<!ELEMENT DateBirth (#PCDATA)>
+<!ELEMENT Transcript (Subject+)>
+<!ELEMENT Subject (IDT, SubjectName,TheoryPoint, PracticePoint, AverageScore)>
+<!ELEMENT IDT (#PCDATA)>
+<!ELEMENT SubjectName (#PCDATA)>
+<!ELEMENT TheoryPoint (#PCDATA)>
+<!ELEMENT PracticePoint (#PCDATA)>
+<!ELEMENT AverageScore (#PCDATA)>

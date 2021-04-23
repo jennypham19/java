@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Menu SYSTEM "menu.dtd">
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<Menu xmlns="http://www.example.org/menu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/menu menu.xsd ">
+	<Food type="Salad">
+		<Name>dsfdsfds</Name>
+		<Price>$7.1</Price>
+		<Description>sdsdsddsadsadsadsadasdsadzfsdfsdfsddsadsadsadfasfdsahgdfsaghdfsahdfhfhghfhfhgfshfdshgfsahdfhd</Description>
+		<Calories>45546</Calories>
+	</Food>
+</Menu>

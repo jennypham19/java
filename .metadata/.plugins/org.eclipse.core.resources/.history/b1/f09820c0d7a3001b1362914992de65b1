@@ -1,0 +1,9 @@
+package jenny;
+
+public class Scan {
+
+	public Scan() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

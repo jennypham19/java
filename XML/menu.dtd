@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Menu (Food+)>
+<!ATTLIST Menu xmlns CDATA "">
+<!ATTLIST Menu xmlns:xsi CDATA "">
+<!ATTLIST Menu xsi:schemaLocation CDATA "">
+<!ELEMENT Food (Name, Price, Description, Calories)>
+<!ATTLIST Food type CDATA "">
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Calories (#PCDATA)>

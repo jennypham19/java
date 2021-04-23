@@ -1,0 +1,20 @@
+
+	<!ELEMENT SaleDetails (Sale+)>
+	<!ELEMENT Sale (BillNumber, Date, Branch, Item+, Payment+)>
+	<!ELEMENT BillNumber (#PCDATA)>
+	<!ELEMENT Date (#PCDATA)>
+	<!ELEMENT Branch (#PCDATA)>
+	<!ELEMENT Item (Number, Name, Code, Quantity, Price, Discount, Total)>
+	<!ELEMENT Number (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Code (#PCDATA)>
+	<!ELEMENT Quantity (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ELEMENT Discount (#PCDATA)>
+	<!ELEMENT Total (#PCDATA)>
+	<!ELEMENT Payment (CardName, CustomerName, CardNumber, AccountNumber, GrandTotal)>
+	<!ELEMENT CardName (#PCDATA)>
+	<!ELEMENT CustomerName (#PCDATA)>
+	<!ELEMENT CardNumber (#PCDATA)>
+	<!ELEMENT AccountNumber (#PCDATA)>
+	<!ELEMENT GrandTotal (#PCDATA)>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/score-report" xmlns:tns="http://www.example.org/score-report" elementFormDefault="qualified">
+	<element name="ScoreReport">
+		<complexType>
+			<sequence>
+				<element name="Student">
+					<complexType>
+						<sequence>
+							<element name="ID" type="integer"></element>
+							<element name="FullName" type="string"></element>
+							<element name="Class" type="string"></element>
+							<element name="Address" type="string"></element>
+							<element name="Sex" type="string"></element>
+							<element name="DateBirth" type="date"></element>
+						</sequence>
+					</complexType>
+				</element>
+				
+				<element name="Transcript">
+					<complexType>
+						<sequence>
+							<element name="Subject">
+								<complexType>
+									<sequence>
+										<element name="IDT" type="integer"></element>
+										<element name="SubjectName" type="string"></element>
+										<element name="TheoryPoint" type="float"></element>
+										<element name="PracticePoint" type="float"></element>
+										<element name="AverageScore" type="float"></element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

@@ -1,0 +1,10 @@
+package jenny;
+
+public class main {
+
+	public static void main(final String[] args) {
+		ex1 myEx1 = new ex1("Phạm ","Ngọc Ánh ",20);
+		myEx1.display();
+	}
+
+}

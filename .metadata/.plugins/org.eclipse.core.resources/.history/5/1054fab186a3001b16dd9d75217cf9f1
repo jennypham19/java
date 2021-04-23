@@ -1,0 +1,40 @@
+package jenny;
+
+public class ex2 {
+	private String Name;
+	private String Class;
+	private float C;
+	private float PHP;
+	public ex2(String Name,String Class,float C,float PHP) {
+		this.Name = Name;
+		this.Class = Class;
+		this.C = C;
+		this.PHP = PHP;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public String getClass() {
+		return Class;
+	}
+	public void setClass(String class1) {
+		Class = class1;
+	}
+	public float getC() {
+		return C;
+	}
+	public void setC(float c) {
+		C = c;
+	}
+	public float getPHP() {
+		return PHP;
+	}
+	public void setPHP(float pHP) {
+		PHP = pHP;
+	}
+	
+
+}

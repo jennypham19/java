@@ -1,0 +1,45 @@
+package jenny;
+
+import java.io.Console;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class ex2 {
+	private String Name;
+	private String Class_Name;
+	private float C;
+	private float PHP;
+	public ex2(String Name,String Class_Name,float C,float PHP) {
+		this.Name = Name;
+		this.Class_Name = Class_Name;
+		this.C = C;
+		this.PHP = PHP;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public float getC() {
+		return C;
+	}
+	public void setC(float c) {
+		C = c;
+	}
+	public float getPHP() {
+		return PHP;
+	}
+	public void setPHP(float pHP) {
+		PHP = pHP;
+	}
+	public String getClass_Name() {
+		return Class_Name;
+	}
+	public void setClass_Name(String class_Name) {
+		Class_Name = class_Name;
+	}
+	
+	
+
+}

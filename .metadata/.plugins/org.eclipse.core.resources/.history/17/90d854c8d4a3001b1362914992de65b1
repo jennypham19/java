@@ -1,0 +1,9 @@
+package jenny;
+
+public class Mark {
+
+	public Mark() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

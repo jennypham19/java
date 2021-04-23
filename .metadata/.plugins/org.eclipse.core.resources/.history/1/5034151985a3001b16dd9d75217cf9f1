@@ -1,0 +1,9 @@
+package jenny;
+
+public class ex1 {
+
+	public ex1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
